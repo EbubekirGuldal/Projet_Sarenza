@@ -1,0 +1,260 @@
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Pub fond noir     */
+
+.p1 {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  font-family: roboto;
+  font-size: 100%;
+  padding: 10px;
+}
+.cadeau {
+  font-weight: bolder;
+}
+
+/* Barre de navigation principale*/
+
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.nav-bar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 130%;
+  padding-right: 0%;
+}
+#homme {
+  margin-left: 25%;
+}
+#enfant {
+  margin-left: 70%;
+}
+
+/* Sarenza logo */
+
+#logo {
+  width: 15%;
+  display: block;
+  margin-right: 12%;
+  margin-left: auto;
+}
+
+/* icone */
+
+#message {
+  width: 20px;
+}
+#compte {
+  width: 20px;
+}
+#coeur {
+  width: 20px;
+}
+#icon_panier {
+  width: 20px;
+}
+#panier {
+  margin-right: 20px;
+}
+
+/*Mode hover*/
+
+.nav-bar ul li a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*Deuxième barre de navigation*/
+
+.sous_nav {
+  border-bottom: 1px solid grey;
+  margin: 0;
+}
+.sous_nav ul li {
+  list-style-type: none;
+  font-size: small;
+}
+.sous_nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 0px;
+}
+
+/*Mode hover*/
+
+.sous_nav ul li a:hover {
+  text-decoration: underline;
+  color: rgb(194, 44, 69);
+}
+
+/*Barre de recherche*/
+
+.barre_recherche {
+  background-color: rgb(226, 226, 226);
+  border: none;
+  height: 100%;
+  margin: 0px;
+  padding: 20px 15px;
+}
+.material-symbols-outlined {
+  background-color: rgb(226, 226, 226);
+  height: 100%;
+  margin-right: -3px;
+  padding-bottom: 24px;
+  padding-right: 11px;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+
+/*Titre H1*/
+
+h1 {
+  text-align: center;
+}
+
+.fond_vert {
+  text-align: center;
+  background-color: rgb(27, 253, 193);
+  margin: 0% 10%;
+  padding: 2% 0%;
+}
+.black_week {
+  font-weight: bold;
+}
+.bouton {
+  margin-right: 15px;
+  font-weight: bold;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.bouton:hover {
+  color: white;
+  background-color: black;
+}
+
+/*Article en vente*/
+
+#tout_article {
+  display: flex;
+  margin-top: 3%;
+  gap: 1.3em;
+}
+#article1 {
+  margin-left: 10%;
+  display: flex;
+}
+.promotion {
+  display: flex;
+  background-color: red;
+  color: white;
+  position: absolute;
+  font-weight: 500;
+  padding: 0.3em;
+  margin-left: 1em;
+}
+
+/*Première article*/
+
+.favoris {
+  max-height: 2em;
+  position: absolute;
+  background-color: white;
+  padding: 0.2em;
+  border-radius: 50em;
+  margin-left: 15em;
+  margin-top: 0.8em;
+}
+
+/*Deuxième article*/
+#article2 {
+  display: flex;
+}
+
+/*Troisième article*/
+
+#article3 {
+  display: flex;
+}
+#article4 {
+  display: flex;
+}
+
+/*Information article*/
+
+.info_article {
+  position: absolute;
+  margin-top: 22em;
+  background-color: white;
+  padding: 0.5em 1em;
+}
+.prix {
+  color: red;
+  font-weight: 900;
+}
+.barrer {
+  text-decoration: line-through;
+  color: grey;
+}
+.strong {
+  font-weight: 900;
+}
+
+/*Media QUERIES*/
+
+@media screen and (max-width: 1280px) {
+  #logo {
+    width: 25%;
+    margin-right: 37%;
+    float: left;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 2%;
+  }
+  #femme {
+    margin-top: 10%;
+  }
+  #homme {
+    margin: 0;
+  }
+  #enfant {
+    margin: 0;
+  }
+  #tout_article {
+    flex-direction: column;
+    margin-left: 32%;
+  }
+  #article1,
+  #article2,
+  #article3,
+  #article4 {
+    margin-left: 0;
+    width: 100%;
+  }
+  .nav-bar ul,
+  .sous_nav ul {
+    flex-direction: column;
+  }
+}
