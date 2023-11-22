@@ -355,6 +355,184 @@ h1 {
   margin-left: 2%;
 }
 
+/*Petit paragraphe en dessous du mail*/
+
+#paragraphe {
+  clear: both;
+  text-align: center;
+  font-size: 10px;
+  margin-left: 25%;
+  margin-right: 26%;
+  color: grey;
+}
+#conditions {
+  margin-top: 2%;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 12px;
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 3%;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  margin-bottom: 0%;
+}
+
+/*Partie besoin d'aide*/
+
+#application_aide {
+  border-right: 1px solid rgb(202, 202, 202);
+  padding-right: 16%;
+  position: absolute;
+  margin-left: 18%;
+  padding-top: 1%;
+  padding-bottom: 4%;
+}
+#aide {
+  font-size: 20px;
+  font-weight: 700;
+  float: left;
+  margin-left: 20%;
+}
+#grey {
+  color: rgb(90, 90, 90);
+  font-size: 13px;
+  clear: both;
+}
+.gras {
+  font-weight: 700;
+  font-size: 13px;
+  position: relative;
+}
+.gras:hover {
+  color: red;
+}
+
+/*Application sarenza*/
+
+#application {
+  font-weight: 700;
+  float: right;
+  margin-right: 24%;
+  font-size: 20px;
+  margin-top: 2%;
+}
+#text_app {
+  color: grey;
+  font-size: 13px;
+  float: right;
+  margin-top: 5%;
+  position: absolute;
+  margin-left: 60%;
+}
+#img_app {
+  float: right;
+  width: 15em;
+  position: absolute;
+  margin-left: 75%;
+  margin-top: 2%;
+}
+#playstore_img {
+  width: 9em;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+/*Footer*/
+
+#div_footer {
+  margin-top: 19%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 22%;
+  background-color: rgb(242, 239, 239);
+  position: relative;
+  margin-bottom: 2%;
+}
+
+#sarenza_logo {
+  width: 11em;
+  margin-top: 7%;
+  margin-left: 5%;
+  position: absolute;
+}
+.gras_footer {
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+.gris_footer {
+  color: grey;
+  padding-bottom: 4px;
+}
+
+/*Les Parties du footer*/
+
+#a_propos {
+  margin-left: 30%;
+  margin-top: 7%;
+  list-style-type: none;
+  float: left;
+  font-size: 14px;
+}
+#conseils {
+  list-style-type: none;
+  float: left;
+  margin-left: 30%;
+  margin-top: 1%;
+  font-size: 14px;
+}
+#services {
+  list-style-type: none;
+  margin-left: 55%;
+  margin-top: 7%;
+  position: absolute;
+  font-size: 14px;
+}
+#contacts {
+  list-style-type: none;
+  position: absolute;
+  font-size: 14px;
+  margin-top: 7%;
+  margin-left: 75%;
+}
+#suivre {
+  list-style-type: none;
+  position: absolute;
+  font-size: 14px;
+  margin-left: 75%;
+  margin-top: 19%;
+}
+
+/*Footer | logo*/
+
+#facebook {
+  width: 1.5em;
+  filter: grayscale(100%);
+  padding-right: 10px;
+  border-right: 1px solid rgb(168, 167, 167);
+}
+#facebook:hover {
+  filter: none;
+}
+#insta {
+  width: 1.4em;
+  filter: grayscale(100%);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgb(168, 167, 167);
+}
+#insta:hover {
+  filter: none;
+}
+#tiktok {
+  width: 1.1em;
+  padding-left: 10px;
+  filter: grayscale(100%);
+}
+#tiktok:hover {
+  filter: none;
+}
+
 /*Media QUERIES*/
 
 @media screen and (max-width: 1280px) {
