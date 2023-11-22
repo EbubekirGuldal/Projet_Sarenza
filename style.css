@@ -464,6 +464,9 @@ h1 {
   color: grey;
   padding-bottom: 4px;
 }
+.gris_footer:hover {
+  text-decoration: underline;
+}
 
 /*Les Parties du footer*/
 
@@ -503,7 +506,7 @@ h1 {
   margin-top: 19%;
 }
 
-/*Footer | logo*/
+/*Footer | logo réseaux sociaux*/
 
 #facebook {
   width: 1.5em;
@@ -531,6 +534,61 @@ h1 {
 }
 #tiktok:hover {
   filter: none;
+}
+
+/*Liste des moyens de paiement*/
+
+#paiement_liste {
+  width: 30em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  padding-right: 19%;
+  padding-left: 19%;
+}
+
+/*Lois, conditions générales*/
+
+#lois {
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centrer les éléments horizontalement */
+  align-items: center; /* Centrer les éléments verticalement (si nécessaire) */
+  gap: 20px;
+}
+.lois_info {
+  margin-top: 0px;
+}
+.lois_info:hover {
+  text-decoration: underline;
+}
+.espacement {
+  margin-top: 2%;
+}
+.espacement2 {
+  margin-bottom: 3%;
+}
+
+/*Drapeau france*/
+
+#flag_france {
+  width: 3em;
+  display: flex;
+}
+#langue {
+  display: flex;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 5px;
+  position: absolute;
+  border: 1px solid rgb(202, 202, 202);
+  margin-left: 70%;
+  margin-top: 3%;
+  padding-right: 40px;
 }
 
 /*Media QUERIES*/
